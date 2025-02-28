@@ -25,7 +25,7 @@ const Hero: React.FC = () => {
     
     {/* Profile Image with Hover Zoom */}
     <img
-      src="src/assests/datta.jpg"
+      src="/datta.jpg"
       alt="Viswadatta Nidumukkala"
       className="relative w-64 h-64 object-cover rounded-full border-4 border-white dark:border-dark-100 shadow-xl transform group-hover:scale-105 transition-transform duration-500"
     />

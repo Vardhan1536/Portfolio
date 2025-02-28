@@ -33,7 +33,7 @@ export const experienceData: Experience[] = [
       'Collaborated on both frontend and backend repositories, enhancing user experience and functionality'
     ],
     highlight: true,
-    image: 'src/assests/Alumini.jpg'
+    image: '/Alumini.jpg'
   },
   {
     company: 'Smart India Hackathon 2024',
@@ -44,7 +44,7 @@ export const experienceData: Experience[] = [
       'Successfully implemented solution using Node.js, Kafka, and ML models, securing first place'
     ],
     highlight: true,
-    image: 'src/assests/Sih.jpg'
+    image: '/Sih.jpg'
   },
   {
     company: 'Web Team - Technical Events',
@@ -55,7 +55,7 @@ export const experienceData: Experience[] = [
       'Implemented real-time analytics, role-based access control, and automated ID generation'
     ],
     highlight: true,
-    image: 'src/assests/Teckzite.jpg'
+    image: '/Teckzite.jpg'
   }
 ];
 
@@ -70,7 +70,7 @@ export const projectsData: Project[] = [
     technologies: ['React.js', 'Node.js', 'Express.js', 'MongoDB'],
     link: 'https://alumni-n4q7.vercel.app/',
     github: '#',
-    image: 'src/assests/alumini.jpg',
+    image: '/alumini.jpg',
     highlight: true
   },
   {
@@ -82,7 +82,7 @@ export const projectsData: Project[] = [
     ],
     technologies: ['Node.js', 'Kafka', 'ML/AI', 'Express.js', 'MongoDB'],
     github: 'https://github.com/Viswadatta1233/SIHBackend_ChasingHorizins.git',
-    image: 'src/assests/Dynamic.jpg',
+    image: '/Dynamic.jpg',
     highlight: true
   },
   {
@@ -95,7 +95,7 @@ export const projectsData: Project[] = [
     technologies: ['MongoDB', 'Express.js', 'React.js', 'Node.js'],
     link: 'https://vms20.vercel.app/',
     github: '#',
-    image: 'src/assests/Teckzite.jpg',
+    image: '/Teckzite.jpg',
     highlight: true
   },
   {
