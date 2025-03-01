@@ -36,14 +36,15 @@ const ThemeToggle: React.FC = () => {
 
   return (
     <motion.button
-      onClick={toggleTheme}
-      className="fixed top-5 right-5 z-50 p-2 rounded-full bg-light-200 dark:bg-dark-100 shadow-md"
-      whileTap={{ scale: 0.9 }}
-      whileHover={{ scale: 1.1 }}
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      transition={{ duration: 0.3 }}
-    >
+  onClick={toggleTheme}
+  className="fixed top-5 right-16 z-50 p-2 rounded-full bg-light-200 dark:bg-dark-100 shadow-md"
+  whileTap={{ scale: 0.9 }}
+  whileHover={{ scale: 1.1 }}
+  initial={{ opacity: 0 }}
+  animate={{ opacity: 1 }}
+  transition={{ duration: 0.3 }}
+>
+
       {isDarkMode ? (
         <Sun className="h-6 w-6 text-yellow-400" />
       ) : (

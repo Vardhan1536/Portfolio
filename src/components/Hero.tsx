@@ -1,7 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { TypeAnimation } from 'react-type-animation';
-import { ChevronDown } from 'lucide-react';
 import { socialLinks } from '../data';
 import SocialIcon from './SocialIcon';
 
@@ -92,18 +91,7 @@ const Hero: React.FC = () => {
           </div>
         </motion.div>
       </div>
-
-      {/* Scroll Down Indicator */}
-      <motion.div
-        className="absolute bottom-10 left-1/2 transform -translate-x-1/2"
-        animate={{ y: [0, 10, 0] }}
-        transition={{ repeat: Infinity, duration: 2 }}
-      >
-        <a href="#about" className="flex flex-col items-center text-gray-500 dark:text-gray-400">
-          <span className="text-sm mb-2">Scroll Down</span>
-          <ChevronDown className="h-6 w-6 animate-bounce" />
-        </a>
-      </motion.div>
+      
     </section>
   );
 };
