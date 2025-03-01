@@ -43,7 +43,7 @@ const Navbar: React.FC = () => {
     >
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <a href="#home" className="text-2xl font-bold text-primary-light dark:text-primary-dark">
-          Viswadatta<span className="text-secondary-light dark:text-secondary-dark">.dev</span>
+          Viswadatta<span className="text-secondary-light dark:text-secondary-dark">.Developer</span>
         </a>
 
         {/* Desktop Navigation */}

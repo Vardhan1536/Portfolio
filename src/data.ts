@@ -74,6 +74,19 @@ export const projectsData: Project[] = [
     highlight: true
   },
   {
+    title: 'FreshCart - Online Grocery Store',
+    description: [
+      'Served as Scrum Master leading development of comprehensive e-grocery platform with admin dashboard',
+      'Implemented secure payment processing with Stripe integration and COD options',
+      'Built admin dashboard with sales analytics and visualization using Chart.js'
+    ],
+    technologies: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Stripe', 'Chart.js'],
+    link: 'https://freshcart-wavv.onrender.com',
+    github: 'https://github.com/LeelaPrasadGedela216/E-Grocery.git',
+    image: '/FreshCart1.png',
+    highlight: true
+  },
+  {
     title: 'Dynamic Route Rationalization System',
     description: [
       'Developed ML/AI-powered system for optimizing public transport routes using real-time data',
@@ -85,6 +98,7 @@ export const projectsData: Project[] = [
     image: '/Dynamic.jpg',
     highlight: true
   },
+  
   {
     title: 'Teckzite 2025 Management System',
     description: [
