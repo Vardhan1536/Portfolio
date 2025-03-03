@@ -70,7 +70,7 @@ export const projectsData: Project[] = [
     technologies: ['React.js', 'Node.js', 'Express.js', 'MongoDB'],
     link: 'https://alumni-n4q7.vercel.app/',
     github: '#',
-    image: '/Alumini.jpg',
+    image: '/alumni_cell_logo.png',
     highlight: true
   },
   {
