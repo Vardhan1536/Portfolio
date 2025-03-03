@@ -42,11 +42,11 @@ const Experience: React.FC = () => {
                   <p className="text-lg font-medium mb-3">{exp.role}</p>
                   
                   {exp.image && (
-                    <div className="mb-4">
+                    <div className="mb-4 h-48 overflow-hidden rounded-lg">
                       <img 
                         src={exp.image} 
                         alt={exp.company} 
-                        className="w-full h-48 object-cover rounded-lg"
+                        className="w-full h-full object-cover"
                       />
                     </div>
                   )}
