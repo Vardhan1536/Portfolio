@@ -120,7 +120,7 @@ export const projectsData: Project[] = [
     ],
     technologies: ['Node.js', 'Flask', 'Python', 'ReLU', 'MongoDB'],
     github: 'https://github.com/Viswadatta1233/gvmc.git',
-    image: 'https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?q=80&w=1470&auto=format&fit=crop'
+    image: '/GVMC.png'
   }
 ];
 
