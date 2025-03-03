@@ -33,7 +33,7 @@ export const experienceData: Experience[] = [
       'Collaborated on both frontend and backend repositories, enhancing user experience and functionality'
     ],
     highlight: true,
-    image: '/Alumini.jpg'
+    image: '/alumni_cell_logo.png'
   },
   {
     company: 'Smart India Hackathon 2024',
