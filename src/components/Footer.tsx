@@ -18,11 +18,11 @@ const Footer: React.FC = () => {
           <p className="text-center text-gray-600 dark:text-gray-400 mb-2">
             &copy; {currentYear} Viswadatta Nidumukkala. All rights reserved.
           </p>
-          <div className="flex items-center text-gray-500 dark:text-gray-500 text-sm">
+          {/* <div className="flex items-center text-gray-500 dark:text-gray-500 text-sm">
             <span>Made with</span>
             <Heart className="h-4 w-4 mx-1 text-red-500 fill-current" />
             <span>using React & Tailwind CSS</span>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>
